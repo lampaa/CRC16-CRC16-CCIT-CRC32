@@ -1,10 +1,10 @@
 /**
- * Calculate CRC16 checksum
+ * Calculate CRC32 checksum
  * Code ported to JavaScript from Java
  *
  * Oryginal source:
- * http://introcs.cs.princeton.edu/java/51data/CRC16.java.html
- * CRC16-CCIT for 123456789 = 29b1
+ * http://introcs.cs.princeton.edu/java/51data/CRC32.java.html
+ * CRC16-CCIT for 123456789 = CBF43926
  *
  * Online calculator for testing:
  * http://zorc.breitbandkatze.de/crc.html
