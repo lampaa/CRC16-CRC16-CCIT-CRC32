@@ -13,7 +13,7 @@
 function CRC16_CCITT(charach){
 	var crc = 0xFFFF;
 	var polynomial = 0x1021;
-	var var i=0, k=0, byte_val, bit, c15;
+	var i=0, k=0, byte_val, bit, c15;
 	
 	for (; i < charach.length; i++) {
 		byte_val = charach[i].charCodeAt(0);
