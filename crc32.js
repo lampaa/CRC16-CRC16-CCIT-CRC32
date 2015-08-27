@@ -59,5 +59,3 @@ function crc32(charach) {
 	
 	return crc.toString(16);
 }
-
-console.log(crc32('123456789'));
